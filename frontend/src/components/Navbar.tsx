@@ -33,11 +33,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-orange-400 bg-white fixed">
+    <div className="flex justify-between items-center w-full h-16 px-4 text-orange-400 bg-white fixed">
       <div>
         <h1 className="text-3xl ml-2">Alsasha Investments Ltd</h1>
       </div>
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex space-x-4">
         {links.map(({ id, link, name }) => (
           <li
             key={id}
@@ -56,12 +56,9 @@ const Navbar = () => {
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen text-orange-300 bg-white">
+        <ul className="flex flex-col justify-center items-center absolute top-16 left-0 w-full h-screen text-orange-300 bg-white">
           {links.map(({ id, link, name }) => (
-            <li
-              key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
-            >
+            <li key={id} className="py-2 cursor-pointer capitalize text-4xl">
               <Link to={link} onClick={closeMobileMenu}>
                 {name}
               </Link>
