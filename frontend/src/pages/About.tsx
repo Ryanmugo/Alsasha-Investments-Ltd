@@ -111,6 +111,12 @@ const About = () => {
               </p>
             </li>
           </ul>
+          <br />
+          <br />
+          <h6 className="font-bold text-md">
+            Foundations of Excellence: Crafting Our Company's DNA with
+            Unwavering Values and Visionary Spirit! 🌐✨ #CoreValuesUnleashed
+          </h6>
         </div>
       </div>
       <br />
