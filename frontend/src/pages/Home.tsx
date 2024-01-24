@@ -12,7 +12,8 @@ const Home = () => {
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
             }}
           >
-            🌟 Transforming Chaos into Clean Spaces, One Step at a time! 🧹✨
+            🌟 Elevating Order from Chaos, Crafting Immaculate Spaces with Every
+            Step Forward! 🧹✨
           </h1>
 
           <p className="p-4 bg-orange-300 text-md md:text-2xl text-center border rounded">
