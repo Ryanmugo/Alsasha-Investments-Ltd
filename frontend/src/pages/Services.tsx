@@ -66,18 +66,17 @@ const Services = () => {
         2. Maintenance of common area equipment
       </h3>
       <p className="text-orange-600 text-center text-semibold">
-        At Alsasha Investments Ltd, we redefine facility management by
-        seamlessly orchestrating the maintenance services for both commercial
-        and residential common areas. From the heartbeat of common area
-        electricity to the resilience of backup generators, the vitality of
-        borehole systems, the efficiency of septic tank systems, the security of
-        electric fences, the allure of swimming pools, and the vigor of
-        gymnasiums – we masterfully navigate and enhance every facet.Our
-        commitment extends beyond the physical structures; we are the guardians
-        of seamless experiences, ensuring that the pulse of each facility
-        resonates with excellence. Join us in elevating your spaces to
-        unparalleled levels of functionality and allure, where every element
-        harmonizes for a thriving environment!
+        We redefine facility management by seamlessly orchestrating the
+        maintenance services for both commercial and residential common areas.
+        From the heartbeat of common area electricity to the resilience of
+        backup generators, the vitality of borehole systems, the efficiency of
+        septic tank systems, the security of electric fences, the allure of
+        swimming pools, and the vigor of gymnasiums – we masterfully navigate
+        and enhance every facet.Our commitment extends beyond the physical
+        structures; we are the guardians of seamless experiences, ensuring that
+        the pulse of each facility resonates with excellence. Join us in
+        elevating your spaces to unparalleled levels of functionality and
+        allure, where every element harmonizes for a thriving environment!
       </p>
       <br />
       <br />
