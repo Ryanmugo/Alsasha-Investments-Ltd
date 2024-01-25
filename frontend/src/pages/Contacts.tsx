@@ -18,21 +18,21 @@ const Contacts = () => {
             and let the magic begin! 🌟
           </h1>
 
-          <p className="p-4 bg-blue-300 text-md md:text-2xl text-center border rounded">
-            <b>📲&nbsp; Telephone No:</b>
-            &nbsp; <b>+254 720 677 577</b>
+          <p className="p-4 bg-blue-300 text-md md:text-2xl text-center font-semibold border rounded">
+            📲&nbsp; Telephone No: &nbsp; +254 720 677 577
             <br />
             <br />
-            <b>📩 &nbsp; Email Address:</b>&nbsp;{" "}
-            <b>alsashainvestments@gmail.com</b>
+            📩 &nbsp; Email Address:&nbsp; alsashainvestments@gmail.com
             <br />
             <br />
-            <b>📬 &nbsp; Mailing Address:</b>&nbsp;{" "}
-            <b>P.O Box 60332-00200 &nbsp;Nairobi, Kenya</b>
+            📬 &nbsp; Mailing Address:&nbsp; P.O Box 60332-00200 &nbsp;Nairobi,
+            Kenya
             <br />
             <br />
-            <b>📌 &nbsp; Physical Address:</b>&nbsp;
-            <b>Theta Lane, Kilimani, Nairobi</b>
+            📌 &nbsp; Physical Address:&nbsp; Theta Lane, Kilimani, Nairobi
+            <br />
+            <br />
+            🏢 Branch Office:&nbsp; Tom Mboya Road, Milimani, Kisumu
           </p>
         </div>
       </div>

@@ -9,14 +9,14 @@ const Home = () => {
           <h1
             className="text-2xl md:text-4xl lg:text-5xl text-orange-400 font-bold"
             style={{
-              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.9)",
             }}
           >
             🌟 Elevating Order from Chaos, Crafting Immaculate Spaces with Every
             Step Forward! 🧹✨
           </h1>
 
-          <p className="p-4 bg-orange-300 text-md md:text-2xl text-center border rounded">
+          <p className="p-4 bg-orange-300 text-md md:text-2xl font-semibold text-center border rounded">
             Vision: Be a leader in the provision of efficient and affordable
             services in common area facility management
             <br />
