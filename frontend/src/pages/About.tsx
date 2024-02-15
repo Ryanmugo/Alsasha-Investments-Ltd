@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="h-screen flex flex-col justify-start bg-gray-100">
+    <div className="h-screen flex flex-col justify-start">
       <h1 className="text-3xl sm:text-5xl font-normal underline text-orange-400 text-center mt-20">
         About
       </h1>
@@ -14,15 +14,15 @@ const About = () => {
       </p>
       <div className="grid grid-cols-2 gap-2  place-items-center">
         <img
-          src="main3.jpg"
+          src="bulb.png"
           alt="Image 1"
-          className="w-full md:w-[400px] h-auto"
+          className="w-full md:w-[400px] h-[240px]"
         />
 
         <img
-          src="mow.jpg"
+          src="garden.png"
           alt="Image 2"
-          className="w-full md:w-[400px] h-auto"
+          className="w-full md:w-[400px] h-[240px]"
         />
       </div>
       <p className="mt-4 text-center text-orange-500 font-semibold text-lg">
@@ -43,13 +43,13 @@ const About = () => {
         Investments Ltd the preferred choice for those seeking top-notch
         expertise in common area facility management.
       </p>
-      <br />
 
+      <br />
       <div className="flex flex-col items-center justify-center text-center gap-6">
-        <h1 className="text-xl md:text-4xl lg:text-5xl text-orange-400 font-bold">
+        <h1 className="text-xl md:text-3xl lg:text-4xl text-orange-400 font-bold">
           🌐 Our Core Values ✨
         </h1>
-        <div className="p-4 bg-orange-300 text-md md:text-xl  border rounded">
+        <div className="p-4 bg-orange-300 text-md md:text-xl  border rounded max-w-[900px]">
           <ul>
             <li className="font-bold">
               1. Building Long-Term Relationships: &nbsp;&nbsp;
@@ -115,17 +115,16 @@ const About = () => {
           <br />
           <h6 className="font-bold text-md">
             Foundations of Excellence: Crafting Our Company's DNA with
-            Unwavering Values and Visionary Spirit! 🌐✨ #CoreValuesUnleashed
+            Unwavering Values and Visionary Spirit!
           </h6>
         </div>
       </div>
       <br />
       <p className="mt-2  text-orange-500 text-center font-bold">
         Embark on a journey with us to transform spaces into vibrant havens that
-        withstand the sands of time! 🌟🏡 <br /> <br />
+        withstand the sands of time! <br /> <br />
         Let's create lasting impressions through meticulous care and innovation.{" "}
-        <br /> Together, we build environments that thrive! <br /> <br /> 🌿💼
-        #TransformingSpaces &nbsp; &nbsp; #TimelessExcellence
+        <br /> Together, we build environments that thrive! <br /> <br />
       </p>
     </div>
   );

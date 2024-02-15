@@ -9,7 +9,7 @@ const Services = () => {
       </h3>
       <p className="text-orange-600 text-center text-semibold">
         At Alsasha Investments Ltd, we stand at the forefront of a Green
-        Revolution! 🌿✨ Our pledge transcends the ordinary scope of janitorial
+        Revolution! Our pledge transcends the ordinary scope of janitorial
         services – we artfully shape clean and environmentally responsible
         operations within the estate and its immediate surroundings. Our
         janitorial artisans go beyond the basics; they are custodians of
@@ -19,14 +19,14 @@ const Services = () => {
       <br />
       <div className="grid grid-cols-2 gap-2  place-items-center">
         <img
-          src="clean.jpg"
+          src="mopp.png"
           alt="cleanliness"
-          className="w-full md:w-[400px] h-auto"
+          className="w-full md:w-[400px] h-[240px]"
         />
         <img
-          src="service.jpeg"
+          src="garden.png"
           alt="cleanliness"
-          className="w-full md:w-[400px] h-auto"
+          className="w-full md:w-[400px] h-[240px]"
         />
       </div>
       <p className="mt-4 text-center text-orange-500 font-bold text-lg mb-5">
@@ -47,18 +47,18 @@ const Services = () => {
         <img
           src="mow.jpg"
           alt="cleanliness"
-          className="w-full md:w-[400px] h-auto"
+          className="w-full md:w-[300px] h-[240px]"
         />
         <img
-          src="gardening.jpg"
+          src="security.png"
           alt="gardening"
-          className="w-full md:w-[400px] h-auto"
+          className="w-full md:w-[300px] h-[240px]"
         />
       </div>
       <p className="mt-4 text-center text-orange-500 font-bold text-lg mb-5">
         Beyond Buildings, Nature's Canvas Unfolds: Where Lush Greenery Dances in
         Harmony with Architectural Elegance. Our Landscaping Maestros, the
-        Symphony Conductors of Beauty and Sustainability! 🌿🎨🏡
+        Symphony Conductors of Beauty and Sustainability!
       </p>
       <br />
       <br />
@@ -82,32 +82,21 @@ const Services = () => {
       <br />
       <div className="grid grid-cols-2 gap-2  place-items-center mb-10">
         <img
-          src="swim.jpg"
+          src="swim.png"
           alt="swimming"
-          className="w-full md:w-[400px] h-[230px]"
+          className="w-full md:w-[300px] h-[240px]"
         />
         <img
-          src="generator.jpg"
+          src="gene.png"
           alt="generator"
-          className="w-full md:w-[400px] h-auto"
+          className="w-full md:w-[300px] h-[240px]"
         />
       </div>
-      <div className="grid grid-cols-2 gap-2  place-items-center mb-10">
-        <img
-          src="septic.jpg"
-          alt="septic tank management"
-          className="w-full md:w-[400px] h-auto"
-        />
-        <img
-          src="fence.jpg"
-          alt="fence"
-          className="w-full md:w-[400px] h-[230px] mb-4"
-        />
-      </div>
+
       <p className="mt-4 text-center text-orange-500 font-bold text-lg mb-5">
         Unveiling Operational Mastery: Where the Heartbeat of Common Area
         Equipment Resonates in Perfect Harmony. Our Maintenance Virtuosos, the
-        Architects of Reliability and Efficiency! ⚙️🛠️🏢
+        Architects of Reliability and Efficiency!
       </p>
       <br />
       <br />
@@ -126,26 +115,25 @@ const Services = () => {
         owners and tenants to stay informed and engaged in the financial health
         of their properties. Join us in redefining property management where
         financial interactions are not just transactions but opportunities for
-        clarity, trust, and peace of mind! <br /> 💧💼🏠{" "}
-        <b>#FinancialExcellence</b> &nbsp;
-        <b>#TransparentTransactions</b>
+        clarity, trust, and peace of mind! <br />
+        &nbsp;
       </p>
       <div className="grid grid-cols-2 gap-2  place-items-center mb-10">
         <img
-          src="bill.jpg"
+          src="elec.png"
           alt="bills"
-          className="w-full md:w-[400px] h-[230px]"
+          className="w-full md:w-[300px] h-[240px]"
         />
         <img
           src="bills.jpg"
           alt="bills"
-          className="w-full md:w-[400px] h-auto"
+          className="w-full md:w-[300px] h-[240px]"
         />
       </div>
       <p className="mt-4 text-center text-orange-500 font-bold text-lg mb-5">
         Unveiling Financial Harmony: Beyond Transactions, Where Utility Bills
         Choreograph a Symphony of Clarity and Timeliness. Our Financial
-        Custodians, the Architects of Transparent and Punctual Payments! 💡💰🏠
+        Custodians, the Architects of Transparent and Punctual Payments!
       </p>
       <h3 className="font-bold mt-10 mx-auto text-orange-600 text-xl mb-4">
         4. Security
@@ -159,28 +147,16 @@ const Services = () => {
         your steadfast representatives, we create a shield of safety that
         resonates with our unwavering dedication to securing your spaces. Join
         us in forging a partnership where security isn't just a service but a
-        promise of peace and protection.🔒🤝🏢 <br />
+        promise of peace and protection.
         <br />
-        <b>#SecurityPartnership</b>&nbsp; &nbsp;
-        <b>#PeaceOfMind</b>
+        <br />
       </p>
-      <div className="grid grid-cols-2 gap-2  place-items-center mb-10">
-        <img
-          src="watch.jpg"
-          alt="watch"
-          className="w-full md:w-[400px] h-[230px]"
-        />
-        <img
-          src="security.jpg"
-          alt="security"
-          className="w-full md:w-[400px] h-[230px]"
-        />
-      </div>
+
       <p className="mt-4 text-center text-orange-500 font-bold text-lg mb-5">
         Revealing Security Serenity: Beyond Vigilance, Where Safety Measures
         Conduct a Symphony of Assurance and Timely Vigilance. Our Security
         Custodians, the Architects of Transparent and Punctual Safeguards!
-        🔐🤝🏢 <br />
+        <br />
         <br />
       </p>
     </div>
