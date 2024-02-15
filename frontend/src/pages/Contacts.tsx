@@ -9,13 +9,13 @@ const Contacts = () => {
       >
         <div className="flex flex-col items-center justify-center text-center gap-6">
           <h1
-            className="text-2xl md:text-4xl lg:text-5xl text-white font-semibold"
+            className="text-2xl md:text-4xl lg:text-4xl text-white font-semibold"
             style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)",
             }}
           >
             🤔 Ready to launch your ideas? Let's chat! Connect with us today and
-            let the magic begin! ⭐
+            let the magic begin!
           </h1>
           <p className="p-4 bg-orange-300 text-md md:text-2xl font-semibold text-center border rounded">
             📲&nbsp; Telephone No: &nbsp; +254 720 677 577

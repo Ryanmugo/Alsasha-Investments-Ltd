@@ -45,7 +45,7 @@ const Services = () => {
       <br />
       <div className="grid grid-cols-2 gap-2  place-items-center">
         <img
-          src="mow.jpg"
+          src="bulb.png"
           alt="cleanliness"
           className="w-full md:w-[300px] h-[240px]"
         />
