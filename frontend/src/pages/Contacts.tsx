@@ -9,7 +9,7 @@ const Contacts = () => {
       >
         <div className="flex flex-col items-center justify-center text-center gap-6">
           <h1
-            className="text-2xl md:text-4xl lg:text-5xl text-white font-bold"
+            className="text-2xl md:text-4xl lg:text-5xl text-white font-semibold"
             style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)",
             }}
