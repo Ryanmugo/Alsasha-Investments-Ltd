@@ -22,9 +22,8 @@ const Contacts = () => {
           </h1>
           <div className="flex justify-center items-center">
             <form
-              action="mailto:gathariryan@gmail.com"
+              action="https://getform.io/f/868f365b-14a2-4dc0-99a3-e523d7b64438"
               method="POST"
-              encType="text/plain"
               className="flex flex-col w-full"
             >
               <input
@@ -37,7 +36,7 @@ const Contacts = () => {
                 type="text"
                 name="email"
                 placeholder="Enter Your Email...."
-                className="my-4 p-2 bg-transparent rounded-md border-2 focus:outline-none text-white placeholder-white w-[600px]"
+                className="my-4 p-2 bg-transparent rounded-md border-2 focus:outline-none text-white placeholder-white"
               />
               <textarea
                 name="message"
