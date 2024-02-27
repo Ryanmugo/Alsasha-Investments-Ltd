@@ -1,13 +1,16 @@
 const Contacts = () => {
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full bg-slate-500">
       <div
-        className="bg-cover bg-center h-screen  flex items-center justify-center "
+        className="bg-cover bg-center h-screen  flex items-center justify-center"
         style={{
           backgroundImage: 'url("/map.jpg")',
         }}
       >
         <div className="flex flex-col items-center justify-center text-center gap-6">
+          <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+            <div className="pb-8"></div>
+          </div>
           <h1
             className="text-2xl md:text-4xl lg:text-4xl text-orange-500 font-semibold"
             style={{
@@ -17,22 +20,38 @@ const Contacts = () => {
             🤔 Ready to launch your ideas? Let's chat! Connect with us today and
             let the magic begin!
           </h1>
-          <p className="p-4 bg-orange-300 text-md md:text-xl font-semibold text-center border rounded">
-            📲&nbsp; Telephone No: &nbsp; +254 720 677 577
-            <br />
-            <br />
-            📩 &nbsp; Email Address:&nbsp; alsashainvestments@gmail.com
-            <br />
-            <br />
-            📬 &nbsp; Mailing Address:&nbsp; P.O Box 60332-00200 &nbsp;Nairobi,
-            Kenya
-            <br />
-            <br />
-            📌 &nbsp; Physical Address:&nbsp; Theta Lane, Kilimani, Nairobi
-            <br />
-            <br />
-            🏢 Branch Office:&nbsp; Tom Mboya Road, Milimani, Kisumu
-          </p>
+          <div className="flex justify-center items-center">
+            <form
+              action="mailto:gathariryan@gmail.com"
+              method="POST"
+              encType="text/plain"
+              className="flex flex-col w-full"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter Your Name...."
+                className="p-2 bg-transparent rounded-md border-2 focus:outline-none text-white placeholder-white"
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="Enter Your Email...."
+                className="my-4 p-2 bg-transparent rounded-md border-2 focus:outline-none text-white placeholder-white w-[600px]"
+              />
+              <textarea
+                name="message"
+                rows={10}
+                cols={50}
+                className="p-2 bg-transparent border-2 rounded-md focus:outline-none text-white placeholder-white"
+                placeholder="Enter Your Message...."
+              ></textarea>
+
+              <button className="text-white  bg-orange-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
